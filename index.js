@@ -1,6 +1,7 @@
 const express = require("express");
 let winston = require("winston");
 const cors = require("cors");
+const path = require("path");
 
 const app = express();
 
@@ -17,6 +18,9 @@ require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
 require("./startup/validation")();
+
+// serving users avatars
+app.use('/public/avatars', express.static(path.join(__dirname, "/public/avatars")));
 
 const port = process.env.PORT || 3090;
 app.listen(port, () => {
