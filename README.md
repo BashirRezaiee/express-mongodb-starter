@@ -10,9 +10,12 @@ Starter project for express and mongodb with pre Auth, Logging, Routing and DB m
 
 3. Add two system environment variables:  
     - `YourPrefix_jwt_key` with your secret value  
-    - `YourPrefix_db_host` with the mongodb uri as the value 
+    - `YourPrefix_db_host_prod` with the mongodb uri as the value 
   
-4. Add your prefix to the `/config/custom-environment-variables.js` file.
+4. Add your prefix to the `/config/custom-environment-variables.json` file.
     - Replace the `EDIT` on both key with your prefix to match the system env variables you added. 
+    
+    #### Note: 
+    You can edit the `/config/default.json`, and add values for development. Don't forgot to add the above system environment       variables on production. 
     
 5. If you have nodemon installed globaly, then run `nodemon` and the server will start in dev mode, otherwise run `yarn start` or `npm run start` to start the server. 
