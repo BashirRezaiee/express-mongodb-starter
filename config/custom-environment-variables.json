@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "EDIT_jwt_key",
+    "db_host_prod": "EDIT_db_host"
+}

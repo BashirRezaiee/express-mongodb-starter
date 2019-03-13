@@ -1,0 +1,28 @@
+{
+  "name": "express-mongodb-starter",
+  "version": "1.0.0",
+  "description": "Starter project for experss and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Bashir Rezaie",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.19",
+    "multer": "^1.4.1",
+    "winston": "^3.2.1"
+  }
+}

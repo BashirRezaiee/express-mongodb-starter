@@ -1,0 +1,5 @@
+{
+    "jwtPrivateKey": "12345",
+    "db_host_dev": "mongodb://127.0.0.1:27017/eshop",
+    "db_host_prod": "12345"
+}
