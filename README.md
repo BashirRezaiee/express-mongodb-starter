@@ -3,7 +3,7 @@ Starter project for express and mongodb with pre Auth, Logging, Routing and DB m
 
 ## Installation 
 
-1. Clone repo and `cd` into 
+1. Clone repo `git clone https://github.com/BashirRezaiee/express-mongodb-starter.git` and `cd` into 
 
 2. Run on the console
 `yarn install` or `npm install`
